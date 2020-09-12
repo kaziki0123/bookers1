@@ -1,0 +1,7 @@
+<%=  notice %>
+<h3>title</h3>
+    <%= @book.title %>
+<h3>body<h3>
+	<%= @book.body %>
+	<%= link_to "edit", "/books/#{@book.id}/edit" %>
+	<%= link_to "back", "/books" %>
